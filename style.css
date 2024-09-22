@@ -1094,7 +1094,7 @@ section h2{
         justify-content: center;
     }
     .logo img{
-        width: 250px;
+        width: 100px;
     }
     .hero-responsive{
         display: grid;
@@ -1106,7 +1106,7 @@ section h2{
     }
     .hero-responsive h1{
         color: white;
-        font-size: 45px;
+        font-size: 30px;
         text-align: center;
         padding-top: 3rem;
         width: 100%;
@@ -1184,31 +1184,30 @@ section h2{
 
     .round-responsive{
         position: absolute;
-        top: 87%;
-        left: 10%;
+        top: 100%;
+        overflow: hidden;
+        left: 3%;
         color: wheat;
-        padding: 3rem;
+        padding: 2rem;
         /* line-height: 35px; */
-        display: inline-block;
+        display: block;
     }
 
     .round-responsive p{
-        font-size: 15px;
+        font-size: 10px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-bottom: 20px;
     }
     .round-responsive h2{
-        font-size: 60px;
+        font-size: 40px;
     }
     .round-responsive img{
-       padding-top: 1rem;
-       width: 850px;
-       object-fit: cover;
-       margin: 20px auto;
+       padding-top: 5rem;
+       width: 600px;
     }
     .round-responsive h6{
-        font-size: 25px;
+        font-size: 15px;
         line-height: 35px;
     }
     section{
@@ -1217,7 +1216,7 @@ section h2{
         padding-top: 3rem;
     }
     section h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     .cardone, .cardtwo, .cardthree{
         width: 70%;
